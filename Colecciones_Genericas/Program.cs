@@ -6,3 +6,5 @@ var generico = new ColeccionGenerica();
 SortedDictionary<string, int> diccionario = generico.RecolectarPalabras();
 // muestra el contenido del diccionario ordenado
 generico.MostrarDiccionario(diccionario);
+//metodo que utiliza la clase List<T>
+generico.WorkWithStrings();
