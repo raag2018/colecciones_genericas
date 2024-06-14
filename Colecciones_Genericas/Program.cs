@@ -7,4 +7,12 @@ SortedDictionary<string, int> diccionario = generico.RecolectarPalabras();
 // muestra el contenido del diccionario ordenado
 generico.MostrarDiccionario(diccionario);
 //metodo que utiliza la clase List<T>
+Console.WriteLine("##################################################");
+Console.WriteLine("Clase List<T>");
+Console.WriteLine("##################################################");
 generico.WorkWithStrings();
+
+Console.WriteLine("##################################################");
+Console.WriteLine("Clase Stack<T>");
+Console.WriteLine("##################################################");
+generico.stacks();
